@@ -7,7 +7,6 @@ public static void main(String[] args) {
     Scanner sc=new Scanner(System.in);
     int price=15;
     int total=0;
-    
     while(total<price){
         Coin coin=Coin.valueOf(sc.next().toUpperCase());
         int value=switch(coin){
